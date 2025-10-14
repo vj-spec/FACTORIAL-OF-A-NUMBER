@@ -62,11 +62,17 @@ THIN:
 
 END
 
-**Output:**
+**Output:**  
 
 
 
-**Manual Calculations:**
+
+
+
+**Manual Calculations:**  
+
+
+
 
 
 
