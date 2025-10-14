@@ -23,10 +23,14 @@ APPARATUS REQUIRED: Personal computer with Keil software
 
 **Program:**
 
-ORG 0000H 
-MOV A,#04H
-MOV R0,A
-ACALL FACTORIAL 
+ORG 0000H   
+
+MOV A,#04H  
+
+MOV R0,A  
+
+ACALL FACTORIAL  
+
 MOV 40H,A
 SJMP THIN 
 FACTORIAL:DEC R0 
