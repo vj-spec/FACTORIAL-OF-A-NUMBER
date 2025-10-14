@@ -7,15 +7,24 @@ APPARATUS REQUIRED: Personal computer with Keil software
 
 **ALGORITHM:**
 
-• Start
-• Input: Read the number n.
-• Initialize:
-•Set factorial to 1.
-•Set i to 1.
-• Loop: While i is less than or equal to n:
-•Multiply factorial by i.
-•Increment i by 1.
-• Output: Store or print the value of factorial.
+• Start  
+
+• Input: Read the number n.  
+
+• Initialize:  
+
+•Set factorial to 1.  
+
+•Set i to 1.  
+
+• Loop: While i is less than or equal to n:  
+
+•Multiply factorial by i.  
+
+•Increment i by 1.  
+
+• Output: Store or print the value of factorial.  
+
 • End
 
 **FLOW CHART:**
@@ -31,16 +40,26 @@ MOV R0,A
 
 ACALL FACTORIAL  
 
-MOV 40H,A
-SJMP THIN 
-FACTORIAL:DEC R0 
-CJNE R0,#01H,PRODUCT 
-SJMP THICK 
-PRODUCT:MOV B,R0 
-MUL AB
-ACALL FACTORIAL 
-THICK: RET
-THIN:
+MOV 40H,A  
+
+SJMP THIN  
+
+FACTORIAL:DEC R0  
+
+CJNE R0,#01H,PRODUCT  
+
+SJMP THICK   
+
+PRODUCT:MOV B,R0  
+
+MUL AB  
+
+ACALL FACTORIAL  
+
+THICK: RET  
+
+THIN:  
+
 END
 
 **Output:**
