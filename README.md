@@ -70,13 +70,11 @@ END
 
 
 
-
-
-
-
 **Manual Calculations:**  
 
-
+<br>
+<br>
+<br>
 
 
 
