@@ -31,7 +31,7 @@ APPARATUS REQUIRED: Personal computer with Keil software
 <img width="261" height="308" alt="image" src="https://github.com/user-attachments/assets/bffe89f6-3ba9-4294-b817-8b545f680e66" />
 
 **Program:**
-
+```
 ORG 0000H   
 
 MOV A,#04H  
@@ -61,26 +61,15 @@ THICK: RET
 THIN:  
 
 END
-
+```
 **Output:**  
 
-<br>
-<br>
-<br>
-
+<img width="1915" height="1142" alt="image" src="https://github.com/user-attachments/assets/e58aad55-002a-416c-8f1d-e2d0702ab796" />
 
 
 **Manual Calculations:**  
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
+![WhatsApp Image 2025-10-24 at 07 05 26_3b9d56b8](https://github.com/user-attachments/assets/b2e040cb-91bb-40ce-bc11-f6200952ab32)
 
 
 **Result:**
